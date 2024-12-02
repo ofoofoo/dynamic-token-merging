@@ -421,10 +421,191 @@ results_layer_merge_keep_anchor = {0.1: {'average_flops_pruned': 135685306357.76
    'translation_length': 7435,
    'reference_length': 5372}}}
 
+results_layer_num = {1: {'average_flops_pruned': 150911232675.84,
+  'average_flops_ref': 137221822156.8,
+  'average_time_pruned': 1.3146504402160644,
+  'average_time_ref': 1.3304894423484803,
+  'average_rouge_pruned': {'rouge1': 0.4292865128525831,
+   'rouge2': 0.20239215538907368,
+   'rougeL': 0.2956929888723395,
+   'rougeLsum': 0.3608743941696656},
+  'average_rouge_ref': {'rouge1': 0.43149688133968445,
+   'rouge2': 0.2075211088277723,
+   'rougeL': 0.3020403824290508,
+   'rougeLsum': 0.36434375468186375},
+  'average_bleu_pruned': {'bleu': 0.15137500806204637,
+   'precisions': [0.3945004083855159,
+    0.17871929340325696,
+    0.10579345088161209,
+    0.07039455009934714],
+   'brevity_penalty': 1.0,
+   'length_ratio': 1.2600343053173242,
+   'translation_length': 7346,
+   'reference_length': 5830},
+  'average_bleu_ref': {'bleu': 0.15677784102722245,
+   'precisions': [0.38646401662769553,
+    0.1807054488023164,
+    0.11149639903974393,
+    0.07758853744255204],
+   'brevity_penalty': 1.0,
+   'length_ratio': 1.3204116638078902,
+   'translation_length': 7698,
+   'reference_length': 5830}},
+ 2: {'average_flops_pruned': 141150341468.16,
+  'average_flops_ref': 137221822156.8,
+  'average_time_pruned': 1.3065886855125428,
+  'average_time_ref': 1.3469559574127197,
+  'average_rouge_pruned': {'rouge1': 0.4272583598597568,
+   'rouge2': 0.19308663142108595,
+   'rougeL': 0.2943177932114005,
+   'rougeLsum': 0.3572427513959353},
+  'average_rouge_ref': {'rouge1': 0.43149688133968445,
+   'rouge2': 0.2075211088277723,
+   'rougeL': 0.3020403824290508,
+   'rougeLsum': 0.36434375468186375},
+  'average_bleu_pruned': {'bleu': 0.15024518882545285,
+   'precisions': [0.40468660149511215,
+    0.1778004667444574,
+    0.10405565423327413,
+    0.06805889423076923],
+   'brevity_penalty': 1.0,
+   'length_ratio': 1.193138936535163,
+   'translation_length': 6956,
+   'reference_length': 5830},
+  'average_bleu_ref': {'bleu': 0.15677784102722245,
+   'precisions': [0.38646401662769553,
+    0.1807054488023164,
+    0.11149639903974393,
+    0.07758853744255204],
+   'brevity_penalty': 1.0,
+   'length_ratio': 1.3204116638078902,
+   'translation_length': 7698,
+   'reference_length': 5830}},
+ 3: {'average_flops_pruned': 129854456401.92,
+  'average_flops_ref': 137221822156.8,
+  'average_time_pruned': 1.2560935640335082,
+  'average_time_ref': 1.340048360824585,
+  'average_rouge_pruned': {'rouge1': 0.4204975235420857,
+   'rouge2': 0.1764442918210383,
+   'rougeL': 0.2821532267281659,
+   'rougeLsum': 0.347979905711687},
+  'average_rouge_ref': {'rouge1': 0.43149688133968445,
+   'rouge2': 0.2075211088277723,
+   'rougeL': 0.3020403824290508,
+   'rougeLsum': 0.36434375468186375},
+  'average_bleu_pruned': {'bleu': 0.13675681351033941,
+   'precisions': [0.40708626102556433,
+    0.16330247382000304,
+    0.09184774233317923,
+    0.05728596024416967],
+   'brevity_penalty': 1.0,
+   'length_ratio': 1.1473413379073756,
+   'translation_length': 6689,
+   'reference_length': 5830},
+  'average_bleu_ref': {'bleu': 0.15677784102722245,
+   'precisions': [0.38646401662769553,
+    0.1807054488023164,
+    0.11149639903974393,
+    0.07758853744255204],
+   'brevity_penalty': 1.0,
+   'length_ratio': 1.3204116638078902,
+   'translation_length': 7698,
+   'reference_length': 5830}},
+ 4: {'average_flops_pruned': 122008681697.28,
+  'average_flops_ref': 137221822156.8,
+  'average_time_pruned': 1.2452746033668518,
+  'average_time_ref': 1.3341246438026428,
+  'average_rouge_pruned': {'rouge1': 0.4159882230271205,
+   'rouge2': 0.1766554202883792,
+   'rougeL': 0.28862215952210846,
+   'rougeLsum': 0.3483703160209769},
+  'average_rouge_ref': {'rouge1': 0.43149688133968445,
+   'rouge2': 0.2075211088277723,
+   'rougeL': 0.3020403824290508,
+   'rougeLsum': 0.36434375468186375},
+  'average_bleu_pruned': {'bleu': 0.13432234009661037,
+   'precisions': [0.4037695372356727,
+    0.16433239962651727,
+    0.09010433133101486,
+    0.05444908448442017],
+   'brevity_penalty': 1.0,
+   'length_ratio': 1.1193825042881647,
+   'translation_length': 6526,
+   'reference_length': 5830},
+  'average_bleu_ref': {'bleu': 0.15677784102722245,
+   'precisions': [0.38646401662769553,
+    0.1807054488023164,
+    0.11149639903974393,
+    0.07758853744255204],
+   'brevity_penalty': 1.0,
+   'length_ratio': 1.3204116638078902,
+   'translation_length': 7698,
+   'reference_length': 5830}},
+ 6: {'average_flops_pruned': 106910850027.52,
+  'average_flops_ref': 137221822156.8,
+  'average_time_pruned': 1.2464939069747925,
+  'average_time_ref': 1.3333692955970764,
+  'average_rouge_pruned': {'rouge1': 0.3720549453364054,
+   'rouge2': 0.13463420779919028,
+   'rougeL': 0.24888341863066082,
+   'rougeLsum': 0.3036129991668469},
+  'average_rouge_ref': {'rouge1': 0.43149688133968445,
+   'rouge2': 0.2075211088277723,
+   'rougeL': 0.3020403824290508,
+   'rougeLsum': 0.36434375468186375},
+  'average_bleu_pruned': {'bleu': 0.10076843598732615,
+   'precisions': [0.37529210157345383,
+    0.1305586326950467,
+    0.061907059012703006,
+    0.033992482431769895],
+   'brevity_penalty': 1.0,
+   'length_ratio': 1.1010291595197255,
+   'translation_length': 6419,
+   'reference_length': 5830},
+  'average_bleu_ref': {'bleu': 0.15677784102722245,
+   'precisions': [0.38646401662769553,
+    0.1807054488023164,
+    0.11149639903974393,
+    0.07758853744255204],
+   'brevity_penalty': 1.0,
+   'length_ratio': 1.3204116638078902,
+   'translation_length': 7698,
+   'reference_length': 5830}},
+ 12: {'average_flops_pruned': 74209409576.96,
+  'average_flops_ref': 137221822156.8,
+  'average_time_pruned': 1.2536646628379822,
+  'average_time_ref': 1.3345760607719421,
+  'average_rouge_pruned': {'rouge1': 0.3244462246064667,
+   'rouge2': 0.10093119063654182,
+   'rougeL': 0.2181174257368091,
+   'rougeLsum': 0.27048391369603225},
+  'average_rouge_ref': {'rouge1': 0.43149688133968445,
+   'rouge2': 0.2075211088277723,
+   'rougeL': 0.3020403824290508,
+   'rougeLsum': 0.36434375468186375},
+  'average_bleu_pruned': {'bleu': 0.07018162832492099,
+   'precisions': [0.3482066243349923,
+    0.10284616727780688,
+    0.041229784965345656,
+    0.016464628188890898],
+   'brevity_penalty': 0.999485287821266,
+   'length_ratio': 0.9994854202401372,
+   'translation_length': 5827,
+   'reference_length': 5830},
+  'average_bleu_ref': {'bleu': 0.15677784102722245,
+   'precisions': [0.38646401662769553,
+    0.1807054488023164,
+    0.11149639903974393,
+    0.07758853744255204],
+   'brevity_penalty': 1.0,
+   'length_ratio': 1.3204116638078902,
+   'translation_length': 7698,
+   'reference_length': 5830}}}
+
 import matplotlib.pyplot as plt
 import numpy as np
 
-result_list = results_layer_merge_keep_anchor
+result_list = results_layer_prune
 
 prune_ratios = sorted(result_list.keys())
 average_flops_pruned = []
@@ -468,7 +649,10 @@ average_rougeL_ref = np.array(average_rougeL_ref)
 average_bleu_pruned = np.array(average_bleu_pruned)
 average_bleu_ref = np.array(average_bleu_ref)
 
-plt.figure(figsize=(8, 6))
+plt.figure(figsize=(16, 12))
+
+# FLOPs Subplot
+plt.subplot(2, 3, 1)
 plt.plot(prune_ratios, average_flops_pruned / 1e9, marker='o', label='Pruned Model FLOPs')
 plt.axhline(y=average_flops_ref[0] / 1e9, color='r', linestyle='--', label='Reference Model FLOPs')
 plt.xlabel('Pruning Ratio')
@@ -476,9 +660,9 @@ plt.ylabel('Average FLOPs (in billions)')
 plt.title('Average FLOPs vs Pruning Ratio')
 plt.legend()
 plt.grid(True)
-plt.show()
 
-plt.figure(figsize=(8, 6))
+# Inference Time Subplot
+plt.subplot(2, 3, 2)
 plt.plot(prune_ratios, average_time_pruned, marker='o', label='Pruned Model Time')
 plt.axhline(y=average_time_ref[0], color='r', linestyle='--', label='Reference Model Time')
 plt.xlabel('Pruning Ratio')
@@ -486,63 +670,34 @@ plt.ylabel('Average Inference Time (seconds)')
 plt.title('Average Inference Time vs Pruning Ratio')
 plt.legend()
 plt.grid(True)
-plt.show()
 
-plt.figure(figsize=(8, 6))
-plt.plot(prune_ratios, average_rouge1_pruned, marker='o', label='Pruned Model ROUGE-1')
-plt.axhline(y=average_rouge1_ref[0], color='r', linestyle='--', label='Reference Model ROUGE-1')
+
+plt.subplot(2, 3, 3)
+plt.plot(prune_ratios, average_rouge1_pruned, color='b', marker='o', label='Pruned ROUGE-1')
+plt.plot(prune_ratios, average_rouge2_pruned, color='r', marker='s', label='Pruned ROUGE-2')
+plt.plot(prune_ratios, average_rougeL_pruned, color='g', marker='^', label='Pruned ROUGE-L')
+
+plt.axhline(y=average_rouge1_ref[0], color='b', linestyle='--', label='Reference ROUGE-1')
+plt.axhline(y=average_rouge2_ref[0], color='r', linestyle='--', label='Reference ROUGE-2')
+plt.axhline(y=average_rougeL_ref[0], color='g', linestyle='--', label='Reference ROUGE-L')
+
 plt.xlabel('Pruning Ratio')
-plt.ylabel('ROUGE-1 Score')
-plt.title('ROUGE-1 Score vs Pruning Ratio')
-plt.legend()
+plt.ylabel('ROUGE Scores')
+plt.title('ROUGE Scores vs Pruning Ratio')
+plt.legend(bbox_to_anchor=(1.05, 1), loc='upper left')
 plt.grid(True)
-plt.show()
+plt.tight_layout()
 
-plt.figure(figsize=(8, 6))
-plt.plot(prune_ratios, average_rouge2_pruned, marker='o', label='Pruned Model ROUGE-2')
-plt.axhline(y=average_rouge2_ref[0], color='r', linestyle='--', label='Reference Model ROUGE-2')
-plt.xlabel('Pruning Ratio')
-plt.ylabel('ROUGE-2 Score')
-plt.title('ROUGE-2 Score vs Pruning Ratio')
-plt.legend()
-plt.grid(True)
-plt.show()
+# BLEU Subplot
+# plt.subplot(2, 3, 6)
+# plt.plot(prune_ratios, average_bleu_pruned, marker='o', label='Pruned Model BLEU')
+# plt.axhline(y=average_bleu_ref[0], color='r', linestyle='--', label='Reference Model BLEU')
+# plt.xlabel('Pruning Ratio')
+# plt.ylabel('BLEU Score')
+# plt.title('BLEU Score vs Pruning Ratio')
+# plt.legend()
+# plt.grid(True)
 
-plt.figure(figsize=(8, 6))
-plt.plot(prune_ratios, average_rougeL_pruned, marker='o', label='Pruned Model ROUGE-L')
-plt.axhline(y=average_rougeL_ref[0], color='r', linestyle='--', label='Reference Model ROUGE-L')
-plt.xlabel('Pruning Ratio')
-plt.ylabel('ROUGE-L Score')
-plt.title('ROUGE-L Score vs Pruning Ratio')
-plt.legend()
-plt.grid(True)
-plt.show()
-
-plt.figure(figsize=(8, 6))
-plt.plot(prune_ratios, average_bleu_pruned, marker='o', label='Pruned Model BLEU')
-plt.axhline(y=average_bleu_ref[0], color='r', linestyle='--', label='Reference Model BLEU')
-plt.xlabel('Pruning Ratio')
-plt.ylabel('BLEU Score')
-plt.title('BLEU Score vs Pruning Ratio')
-plt.legend()
-plt.grid(True)
-plt.show()
-
-relative_flops = average_flops_pruned / average_flops_ref[0]
-relative_time = average_time_pruned / average_time_ref[0]
-
-plt.figure(figsize=(8, 6))
-plt.plot(prune_ratios, relative_flops, marker='o')
-plt.xlabel('Pruning Ratio')
-plt.ylabel('Relative FLOPs (Pruned / Reference)')
-plt.title('Relative FLOPs vs Pruning Ratio')
-plt.grid(True)
-plt.show()
-
-plt.figure(figsize=(8, 6))
-plt.plot(prune_ratios, relative_time, marker='o')
-plt.xlabel('Pruning Ratio')
-plt.ylabel('Relative Inference Time (Pruned / Reference)')
-plt.title('Relative Inference Time vs Pruning Ratio')
-plt.grid(True)
+plt.tight_layout()
+plt.savefig('model_pruning_analysis.png', dpi=800)
 plt.show()
