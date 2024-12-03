@@ -1,7 +1,7 @@
 results_layer_prune = {0.1: {'average_flops_pruned': 121982159656.96,
-  'average_flops_ref': 125898794588.16,
+  'average_flops_ref': 137221822156.8,
   'average_time_pruned': 1.0711402010917663,
-  'average_time_ref': 1.2417243194580079,
+  'average_time_ref': 1.376973145008087,
   'average_rouge_pruned': {'rouge1': 0.4182168540942135,
    'rouge2': 0.18461451158561681,
    'rougeL': 0.2833980992275022,
@@ -602,10 +602,14 @@ results_layer_num = {1: {'average_flops_pruned': 150911232675.84,
    'translation_length': 7698,
    'reference_length': 5830}}}
 
+results_layer_merge_weights = {0: {'average_flops_pruned': 101627642941.44, 'average_flops_ref': 137221822156.8, 'average_time_pruned': 1.0801796007156372, 'average_time_ref': 1.2397479581832886, 'average_rouge_pruned': {'rouge1': 0.38562778272873344, 'rouge2': 0.14618025641874774, 'rougeL': 0.2651196489989457, 'rougeLsum': 0.32481234342220455}, 'average_rouge_ref': {'rouge1': 0.41425834811581425, 'rouge2': 0.18859044332934705, 'rougeL': 0.27937080844937434, 'rougeLsum': 0.3495267949878762}, 'average_bleu_pruned': {'bleu': 0.11127069846946658, 'precisions': [0.38475177304964536, 0.14154652686762778, 0.0701199200532978, 0.04014227642276423], 'brevity_penalty': 1.0, 'length_ratio': 1.1156266858478692, 'translation_length': 6204, 'reference_length': 5561}, 'average_bleu_ref': {'bleu': 0.18069428516146216, 'precisions': [0.40404040404040403, 0.2045051194539249, 0.13245674740484428, 0.09740350877192983], 'brevity_penalty': 1.0, 'length_ratio': 1.3351915123179283, 'translation_length': 7425, 'reference_length': 5561}}, 0.2: {'average_flops_pruned': 101627642941.44, 'average_flops_ref': 136742316707.84, 'average_time_pruned': 1.2000478863716126, 'average_time_ref': 1.2488332676887512, 'average_rouge_pruned': {'rouge1': 0.38637572504667106, 'rouge2': 0.14646142722449348, 'rougeL': 0.26734617868673105, 'rougeLsum': 0.3255599323320927}, 'average_rouge_ref': {'rouge1': 0.41425834811581425, 'rouge2': 0.18859044332934705, 'rougeL': 0.27937080844937434, 'rougeLsum': 0.3495267949878762}, 'average_bleu_pruned': {'bleu': 0.11286561371741681, 'precisions': [0.387532981530343, 0.14218645204560698, 0.07162346521145975, 0.04111727966689799], 'brevity_penalty': 1.0, 'length_ratio': 1.0904513576694839, 'translation_length': 6064, 'reference_length': 5561}, 'average_bleu_ref': {'bleu': 0.18069428516146216, 'precisions': [0.40404040404040403, 0.2045051194539249, 0.13245674740484428, 0.09740350877192983], 'brevity_penalty': 1.0, 'length_ratio': 1.3351915123179283, 'translation_length': 7425, 'reference_length': 5561}}, 0.4: {'average_flops_pruned': 101627642941.44, 'average_flops_ref': 136742316707.84, 'average_time_pruned': 1.1994796705245971, 'average_time_ref': 1.2615397238731385, 'average_rouge_pruned': {'rouge1': 0.39796994723315693, 'rouge2': 0.15538868302901954, 'rougeL': 0.2659808848861439, 'rougeLsum': 0.3287361910406275}, 'average_rouge_ref': {'rouge1': 0.41425834811581425, 'rouge2': 0.18859044332934705, 'rougeL': 0.27937080844937434, 'rougeLsum': 0.3495267949878762}, 'average_bleu_pruned': {'bleu': 0.12154147057533303, 'precisions': [0.3974484789008832, 0.1521449950116395, 0.07828880622252282, 0.04609563123495012], 'brevity_penalty': 1.0, 'length_ratio': 1.0994425463046216, 'translation_length': 6114, 'reference_length': 5561}, 'average_bleu_ref': {'bleu': 0.18069428516146216, 'precisions': [0.40404040404040403, 0.2045051194539249, 0.13245674740484428, 0.09740350877192983], 'brevity_penalty': 1.0, 'length_ratio': 1.3351915123179283, 'translation_length': 7425, 'reference_length': 5561}}, 0.6: {'average_flops_pruned': 101627642941.44, 'average_flops_ref': 136742316707.84, 'average_time_pruned': 1.2320221710205077, 'average_time_ref': 1.265856111049652, 'average_rouge_pruned': {'rouge1': 0.40260128381875926, 'rouge2': 0.15763856818082, 'rougeL': 0.2775238941307049, 'rougeLsum': 0.33731089903734357}, 'average_rouge_ref': {'rouge1': 0.41425834811581425, 'rouge2': 0.18859044332934705, 'rougeL': 0.27937080844937434, 'rougeLsum': 0.3495267949878762}, 'average_bleu_pruned': {'bleu': 0.11760382799415178, 'precisions': [0.396488427773344, 0.15036496350364964, 0.07535037098103875, 0.04258172673931266], 'brevity_penalty': 1.0, 'length_ratio': 1.1265959359827369, 'translation_length': 6265, 'reference_length': 5561}, 'average_bleu_ref': {'bleu': 0.18069428516146216, 'precisions': [0.40404040404040403, 0.2045051194539249, 0.13245674740484428, 0.09740350877192983], 'brevity_penalty': 1.0, 'length_ratio': 1.3351915123179283, 'translation_length': 7425, 'reference_length': 5561}}, 0.8: {'average_flops_pruned': 101627642941.44, 'average_flops_ref': 136742316707.84, 'average_time_pruned': 1.224426681995392, 'average_time_ref': 1.263013653755188, 'average_rouge_pruned': {'rouge1': 0.4074738691940289, 'rouge2': 0.17079335141254726, 'rougeL': 0.2788188122092015, 'rougeLsum': 0.3441589478714576}, 'average_rouge_ref': {'rouge1': 0.41425834811581425, 'rouge2': 0.18859044332934705, 'rougeL': 0.27937080844937434, 'rougeLsum': 0.3495267949878762}, 'average_bleu_pruned': {'bleu': 0.12784090247723293, 'precisions': [0.40131790421086466, 0.16073178699771318, 0.08369312520757223, 0.04947652819993246], 'brevity_penalty': 1.0, 'length_ratio': 1.1188635137565186, 'translation_length': 6222, 'reference_length': 5561}, 'average_bleu_ref': {'bleu': 0.18069428516146216, 'precisions': [0.40404040404040403, 0.2045051194539249, 0.13245674740484428, 0.09740350877192983], 'brevity_penalty': 1.0, 'length_ratio': 1.3351915123179283, 'translation_length': 7425, 'reference_length': 5561}}, 1: {'average_flops_pruned': 101627642941.44, 'average_flops_ref': 136742316707.84, 'average_time_pruned': 1.224071617126465, 'average_time_ref': 1.2615681648254395, 'average_rouge_pruned': {'rouge1': 0.40410869323686055, 'rouge2': 0.1678071373543824, 'rougeL': 0.27637466469793, 'rougeLsum': 0.34143945464623715}, 'average_rouge_ref': {'rouge1': 0.41425834811581425, 'rouge2': 0.18859044332934705, 'rougeL': 0.27937080844937434, 'rougeLsum': 0.3495267949878762}, 'average_bleu_pruned': {'bleu': 0.13188706988477722, 'precisions': [0.3972007722007722, 0.1605624591236102, 0.08743351063829788, 0.05425963488843814], 'brevity_penalty': 1.0, 'length_ratio': 1.117784571120302, 'translation_length': 6216, 'reference_length': 5561}, 'average_bleu_ref': {'bleu': 0.18069428516146216, 'precisions': [0.40404040404040403, 0.2045051194539249, 0.13245674740484428, 0.09740350877192983], 'brevity_penalty': 1.0, 'length_ratio': 1.3351915123179283, 'translation_length': 7425, 'reference_length': 5561}}}
+
+
+
 import matplotlib.pyplot as plt
 import numpy as np
 
-result_list = results_layer_prune
+result_list = results_layer_merge_weights
 
 prune_ratios = sorted(result_list.keys())
 average_flops_pruned = []
@@ -649,30 +653,30 @@ average_rougeL_ref = np.array(average_rougeL_ref)
 average_bleu_pruned = np.array(average_bleu_pruned)
 average_bleu_ref = np.array(average_bleu_ref)
 
-plt.figure(figsize=(16, 12))
+plt.figure(figsize=(16, 4))
 
 # FLOPs Subplot
-plt.subplot(2, 3, 1)
+plt.subplot(1, 3, 1)
 plt.plot(prune_ratios, average_flops_pruned / 1e9, marker='o', label='Pruned Model FLOPs')
 plt.axhline(y=average_flops_ref[0] / 1e9, color='r', linestyle='--', label='Reference Model FLOPs')
-plt.xlabel('Pruning Ratio')
+plt.xlabel('Relative Weight of Non-Anchor Tokens')
 plt.ylabel('Average FLOPs (in billions)')
-plt.title('Average FLOPs vs Pruning Ratio')
-plt.legend()
+plt.title('Average FLOPs vs Non-Anchor Weight')
+plt.legend(loc='best', prop={'size': 10})
 plt.grid(True)
 
 # Inference Time Subplot
-plt.subplot(2, 3, 2)
+plt.subplot(1, 3, 2)
 plt.plot(prune_ratios, average_time_pruned, marker='o', label='Pruned Model Time')
 plt.axhline(y=average_time_ref[0], color='r', linestyle='--', label='Reference Model Time')
-plt.xlabel('Pruning Ratio')
+plt.xlabel('Relative Weight of Non-Anchor Tokens')
 plt.ylabel('Average Inference Time (seconds)')
-plt.title('Average Inference Time vs Pruning Ratio')
-plt.legend()
+plt.title('Average Inference Time vs Non-Anchor Weight')
+plt.legend(loc='best', prop={'size': 10})
 plt.grid(True)
 
 
-plt.subplot(2, 3, 3)
+plt.subplot(1, 3, 3)
 plt.plot(prune_ratios, average_rouge1_pruned, color='b', marker='o', label='Pruned ROUGE-1')
 plt.plot(prune_ratios, average_rouge2_pruned, color='r', marker='s', label='Pruned ROUGE-2')
 plt.plot(prune_ratios, average_rougeL_pruned, color='g', marker='^', label='Pruned ROUGE-L')
@@ -681,10 +685,10 @@ plt.axhline(y=average_rouge1_ref[0], color='b', linestyle='--', label='Reference
 plt.axhline(y=average_rouge2_ref[0], color='r', linestyle='--', label='Reference ROUGE-2')
 plt.axhline(y=average_rougeL_ref[0], color='g', linestyle='--', label='Reference ROUGE-L')
 
-plt.xlabel('Pruning Ratio')
+plt.xlabel('Relative Weight of Non-Anchor Tokens')
 plt.ylabel('ROUGE Scores')
-plt.title('ROUGE Scores vs Pruning Ratio')
-plt.legend(bbox_to_anchor=(1.05, 1), loc='upper left')
+plt.title('ROUGE Scores vs Non-Anchor Weight')
+plt.legend(bbox_to_anchor=(1.05, 1), prop={'size': 10})
 plt.grid(True)
 plt.tight_layout()
 
@@ -699,5 +703,5 @@ plt.tight_layout()
 # plt.grid(True)
 
 plt.tight_layout()
-plt.savefig('model_pruning_analysis.png', dpi=800)
+plt.savefig("merge_weight.png", dpi=800)
 plt.show()
