@@ -12,8 +12,8 @@ The repository is organized as follows:
 root
 │
 ├── experiments/
-│   ├── experiment_1.ipynb
-│   ├── experiment_2.ipynb
+│   ├── layerwise_merge_sequence.ipynb
+│   ├── weighted_layerwise_merge_sequence.ipynb
 │   └── ...
 │
 ├── src/
