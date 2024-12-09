@@ -1,5 +1,7 @@
 # ELITE: Efficient LLM Inference via Token Elimination
 
+Authors: Derek Chen, Ne Dassanayake, Sean Fei, Orion Foo
+
 This repository contains the implementation and experiments for ELITE, a framework for efficient large language model (LLM) inference through token elimination. The project demonstrates how to reduce computational overhead during inference while maintaining performance.
 
 ## Repository Structure
