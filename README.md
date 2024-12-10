@@ -26,6 +26,9 @@ root
 ```
 
 
+## Data:
+The data used for our experiments can be found at on HuggingFace at: https://huggingface.co/datasets/abisee/cnn_dailymail
+
 ### Contents
 
 - **`experiments/`**: Contains experiment notebooks. Each notebook is self-contained and can be executed independently. Running all cells with the desired hyperparameters generates a results dictionary for evaluation.
